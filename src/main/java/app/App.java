@@ -3,7 +3,7 @@ package app;
 import app.domain.Pessoa;
 import app.service.PessoaService;
 
-public class app {
+public class App {
     public static void main(String[] args) {
 
         Pessoa pessoa = PessoaService.retornaPessoa(1L);
